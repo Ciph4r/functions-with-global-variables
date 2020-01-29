@@ -3,8 +3,36 @@
  **********************************/
 
 
+let x = 3;
+let y = 10;
+let squareTheNumber = 4;
+let greeting = 'hello';
+let firstName = 'David';
+let calling = 'ringing';
 
+double = () => {
+  x = (x * 2);
+};
 
+triple = () => {
+y = (y * 3);
+};
+
+square = () => {
+  squareTheNumber = squareTheNumber **2;
+};
+
+beingNice = () => {
+greeting = greeting + ' ' + firstName;
+};
+
+fullName = () => {
+  firstName = 'not found';
+};
+
+phoneCall = () => {
+calling = 'call ended';
+};
  
 
 /*********************************************************************************************************************
